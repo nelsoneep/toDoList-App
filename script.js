@@ -27,7 +27,7 @@ listContainer.addEventListener("click", function(e){
         e.target.parentElement.remove();
         saveData()
     }
-}, false )
+},  )
 
 // any time we refresh the page , the toDo list jumps Off 
 // to stop that we create a function
